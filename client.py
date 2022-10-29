@@ -20,4 +20,6 @@ def convert_to_kilometers(miles):
     return message.decode()
 
 
-print(convert_to_kilometers(300))
+if __name__ == "__main__":
+    # Convert 300 miles to kilometers as an example
+    print(convert_to_kilometers(300))
