@@ -35,4 +35,4 @@ Finally, the response will be stored in the variable that is bound to socket.rec
 <h2>UML Diagram</h2>
 ![image](https://user-images.githubusercontent.com/71786657/198851864-fcfb1d51-5d21-4dcc-b162-6564f25e1b98.png)
 
-![UML Diagram](https://github.com/csherwood3/361_microservice/blob/main/UML%20Diagram.PNG "Employee Data title")
+![UML Diagram](https://github.com/csherwood3/361_microservice/blob/main/UML%20Diagram.PNG)
