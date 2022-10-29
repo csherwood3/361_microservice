@@ -16,10 +16,10 @@ To request data from the server, initialize a ZMQ socket client-side socket. The
     socket = context.socket(zmq.REQ)
     socket.connect("tcp://34.127.106.38:3389")
 
-Then, send a your request encoded in bytes:
+Then, send a your request encoded in bytes. As an example, let's request 300 miles to be converted:
 
     # Send the request
-    request = miles
+    request = 300
     print(f"Sending request {request} …")
     request = f"{request}".encode()
     socket.send(request)
